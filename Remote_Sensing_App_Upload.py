@@ -13,6 +13,7 @@ import plotly.graph_objects as go
 import os
 import leafmap.kepler
 #------------------------------------------------------------------
+ee.Authenticate()
 #Maps
 Geemap_Map = geemap.Map(basemaps='CartoDB.DarkMatter')
 Kepler_Map= leafmap.kepler.Map()
