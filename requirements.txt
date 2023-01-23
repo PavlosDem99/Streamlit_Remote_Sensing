@@ -1,5 +1,5 @@
 earthengine_api==0.1.334
-ee==0.4
+keplergl
 geemap==0.19.1
 geopandas==0.12.2
 leafmap==0.15.0
